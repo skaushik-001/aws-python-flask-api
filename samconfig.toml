@@ -1,0 +1,11 @@
+version = 0.1
+[dev]
+[dev.deploy]
+[dev.deploy.parameters]
+stack_name = "aws-python-flask-api"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-161tr0ei4v1wv"
+s3_prefix = "aws-python-flask-api"
+region = "eu-central-1"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
+image_repositories = []
