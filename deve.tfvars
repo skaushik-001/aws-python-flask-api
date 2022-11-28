@@ -1,7 +1,7 @@
 region                              = "us-west-2"
 environment                         = "dev"
 app_name                            = "python-flask-api-dev"
-lambda_handler                      = "index.lambda_handler"   
+lambda_handler                      = "app.lambda_handler"   
 lambda_timeout                      = 30
 lambda_runtime                      = "python3.7"
 iam_role_name                       = "lambda_usage"
