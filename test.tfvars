@@ -1,5 +1,5 @@
 region                              = "us-west-2"
-environment                         = "prod"
+environment                         = "test"
 app_name                            = "python-flask-api"
 lambda_handler                      = "app.lambda_handler"   
 lambda_timeout                      = 30
